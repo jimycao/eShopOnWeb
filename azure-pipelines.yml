@@ -40,7 +40,7 @@ stages:
         command: 'publish'
         publishWebProjects: true
         arguments: '-o $(Build.ArtifactStagingDirectory)'
-    
+
     - task: PublishBuildArtifacts@1
       displayName: Publish Artifacts ADO - Website
       inputs:
